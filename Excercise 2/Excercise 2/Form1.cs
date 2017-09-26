@@ -19,8 +19,8 @@ namespace Excercise_2 {
             //all values are changeable
             int w = Size.Width;
             int h = Size.Height;
-            int s = 30;
-            int g = 10;
+            int s = 10;
+            int g = 5;
             int half = w/2;
             int both = s + g;
 
@@ -29,12 +29,12 @@ namespace Excercise_2 {
             SolidBrush gray = new SolidBrush(Color.LightGray);
             form.FillRectangle(black, new Rectangle(w/2, 0, w/2, h));
             //left side of the display
-            int curx = half - s;
+            //int curx = half - s;
             int cury = h - both;
-            for (int x = (half -s); x > 0; x-=g) {
-                curx = half - s;
+            for (int x = (half -s); x >= 0; x -= s) {
+                int curx = half - s;
                 cury -= both;
-                for (int y = h; y > 0; y -= both) {
+                for (int y = h; y >= 0; y -= both) {
                     if (curx < both)
                         break;
                     if (cury < both)
@@ -46,11 +46,11 @@ namespace Excercise_2 {
             //right side of the display
             int currx = half;
             int curry = h - both;
-            for (int x = half; x < w; x += g) {
+            for (int x = half; x < w; x += s) {
                 currx = half;
                 curry -= both;
                 for (int y = h; y > 0; y -= both) {               
-                    if (currx >= w - both)
+                    if (currx > (w - both - s))
                         break;
                     if (curry < both)
                         break;
