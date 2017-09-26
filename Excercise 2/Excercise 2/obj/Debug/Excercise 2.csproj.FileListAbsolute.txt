@@ -1,0 +1,9 @@
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\bin\Debug\Excercise 2.exe.config
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\bin\Debug\Excercise 2.exe
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\bin\Debug\Excercise 2.pdb
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise 2.csprojResolveAssemblyReference.cache
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise_2.Properties.Resources.resources
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise 2.csproj.GenerateResource.Cache
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise 2.exe
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise 2.pdb
+Y:\BCIT\4560\Assignment1.2\Excercise 2\Excercise 2\obj\Debug\Excercise_2.Form1.resources
